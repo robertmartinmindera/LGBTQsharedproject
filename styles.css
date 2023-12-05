@@ -12,3 +12,13 @@
 .highlighted {
   border: thick dotted red;
 }
+body{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h2{
+    margin-bottom:0px;
+}
