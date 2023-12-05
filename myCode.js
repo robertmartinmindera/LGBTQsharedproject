@@ -19,7 +19,7 @@ button.addEventListener("click",()=>{
     const num1 = num1_element.value;
     const num2 = num2_element.value;
     //add
-    const sum = Number(num1)+Number(num2)
+    const sum = Number(num1)*Number(num2)-Number(num1)
     //put on page
     answer.innerText = sum
 })
