@@ -16,7 +16,7 @@ body{
     display:flex;
     flex-direction:column;
     justify-content:center;
-    align-items:center;
+    align-items:left;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 h2{
