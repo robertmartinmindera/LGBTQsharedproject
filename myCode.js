@@ -8,7 +8,6 @@
 //5 - display that on the page
 
 //get elements off the page
-console.log("You made a mistake");
 const num1_element = document.querySelector("input#num1")
 const num2_element = document.querySelector("input#num2")
 const button = document.querySelector("button#add")
@@ -19,7 +18,7 @@ button.addEventListener("click",()=>{
     const num1 = num1_element.value;
     const num2 = num2_element.value;
     //add
-    const sum = Number(num1)*Number(num2)-Number(num1)
+    const sum = Number(num1)+Number(num2)
     //put on page
     answer.innerText = sum
 })
