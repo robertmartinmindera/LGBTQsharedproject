@@ -8,7 +8,7 @@
 //5 - display that on the page
 
 //get elements off the page
-
+console.log("You made a mistake");
 const num1_element = document.querySelector("input#num1")
 const num2_element = document.querySelector("input#num2")
 const button = document.querySelector("button#add")
