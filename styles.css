@@ -10,7 +10,7 @@
 }
 
 .highlighted {
-  border: thick dotted red;
+  border: thick red;
 }
 body{
     display:flex;
