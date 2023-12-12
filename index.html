@@ -1,28 +1,39 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>This page has External CSS Elements AND inline. </title>
-		<link rel="stylesheet" type="text/css" href="styles.css">
-	</head>
-	<body>
-		<body style="background-color:lightblue;">
-		<p h1> This is a page with a fair number of external styles</p>
-		<p class="dark">This is a dark paragraph.</p>
-		<p class="light">This is a light paragraph.</p>
-		<p class="highlighted">This paragraph is highlighted.</p>
-		<p class="dark highlighted">This paragraph is dark and highlighted.</p>
-		<p class="light highlighted">This one is light and highlighted.</p>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>This page has External CSS Elements AND inline.</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="page-container">
+        <h1>This is a page with a fair number of external styles</h1>
+        <p class="dark">This is a dark paragraph.</p>
+        <p class="light">This is a light paragraph.</p>
+        <p class="highlighted">This paragraph is highlighted.</p>
+        <p class="dark highlighted">This paragraph is dark and highlighted.</p>
+        <p class="light highlighted">This one is light and highlighted.</p>
 
-console.log("You made a mistake");
-			 <h1>Basic Addition Conkulator</h1>
-    <h2>Number 1</h1>
-    <input type="text" id="num1">
-    <h2>Number 2</h2>
-    <input type="text" id="num2">
-    <h2>Calculate</h2>
-    <button id="add">Submit</button>
-    <h2>Answer</h2>
-    <div id="answer"></div>
-    <script type="text/javascript" src="myCode.js"></script>
-	</body>
+        <h1>Basic Addition Calculator</h1>
+        <div class="calculator">
+            <div class="input-group">
+                <label for="num1">Number 1</label>
+                <input type="text" id="num1">
+            </div>
+            <div class="input-group">
+                <label for="num2">Number 2</label>
+                <input type="text" id="num2">
+            </div>
+            <div class="input-group">
+                <button id="add">Submit</button>
+            </div>
+            <div class="result">
+                <h2>Answer</h2>
+                <div id="answer"></div>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="myCode.js"></script>
+    </div>
+</body>
 </html>
