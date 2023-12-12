@@ -1,12 +1,17 @@
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
+    background-color: #f0f0f0; /* Grey background */
 }
 
 .page-container {
     max-width: 800px;
     margin: auto;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-left: 8px solid #333; /* Dark grey band on the left */
+    border-right: 8px solid #333; /* Dark grey band on the right */
 }
 
 header {
@@ -43,6 +48,8 @@ article {
 
 .calculator {
     margin-top: 40px;
+    padding: 20px;
+    border: 2px solid #333; /* Dark grey border around the calculator */
 }
 
 h2, h3 {
