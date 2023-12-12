@@ -9,20 +9,32 @@ body {
     padding: 20px;
 }
 
+header {
+    text-align: center;
+}
+
 h1 {
     color: #333;
 }
 
-p {
+.content {
+    margin-top: 20px;
+}
+
+article {
     margin-bottom: 10px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
 }
 
 .dark {
-    color: #555;
+    background-color: #333;
+    color: #fff;
 }
 
 .light {
-    color: #888;
+    background-color: #f9f9f9;
 }
 
 .highlighted {
@@ -30,15 +42,15 @@ p {
 }
 
 .calculator {
-    margin-top: 20px;
-    padding: 20px;
-    border: 2px solid rgba(0, 0, 0, 0.2);
-    border-radius: 8px;
-    background-color: #f9f9f9;
+    margin-top: 40px;
+}
+
+h2, h3 {
+    color: #333;
 }
 
 .input-group {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 label {
@@ -48,12 +60,12 @@ label {
 
 input {
     width: 100%;
-    padding: 8px;
+    padding: 10px;
     box-sizing: border-box;
 }
 
 button {
-    padding: 10px;
+    padding: 12px;
     background-color: #4CAF50;
     color: #fff;
     border: none;
